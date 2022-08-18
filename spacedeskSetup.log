@@ -1,0 +1,39 @@
+
+Call: 4/15/2021 17:37:40 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -preInstallCheck_W10
+
+Call: 4/15/2021 17:37:40 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -qWaveCheck
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 4/15/2021 17:37:40 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -install_W10
+>>> SpacedeskSetupCustomAction::_tWinMain C:\Program Files\datronicsoft\spacedesk\
+>>> Windows10SetupInstall
+IndirectDisplayDriverInstall C:\Program Files\datronicsoft\spacedesk\spacedeskdisplay.inf
+FunctionDriverRootEnumerated::Install spacedesk Graphics Adapter
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_DISPLAY_0001
+KtmInputMouseDriverInstall C:\Program Files\datronicsoft\spacedesk\spacedeskKtmInputmouse.inf
+FunctionDriverRootEnumerated::Install spacedesk Mouse
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_MOUSE_0001
+KtmInputKeyboardDriverInstall C:\Program Files\datronicsoft\spacedesk\spacedeskKtmInputkeyboard.inf
+FunctionDriverRootEnumerated::Install spacedesk Keyboard
+SetupApiDeviceInfoSet::CurrentInstanceDeviceNodeCreate Root\VID_DATRONICSOFT_PID_SPACEDESK_VIRTUAL_KEYBD_0001
+<<< Windows10SetupInstall
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 4/15/2021 17:37:45 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -install_W10_ServiceStart
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 4/15/2021 17:37:46 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -openFirewall
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 4/15/2021 17:37:47 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -spacedeskProgramFilesDelete
+<<< SpacedeskSetupCustomAction::_tWinMain
+
+Call: 4/15/2021 17:37:47 Build: Oct 14 2019 13:14:06 v0921
+>>> SpacedeskSetupCustomAction::_tWinMain -otherFirewallCheck
+<<< SpacedeskSetupCustomAction::_tWinMain
